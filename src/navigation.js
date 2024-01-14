@@ -84,7 +84,7 @@ export const headerData = {
     },
     {
       text: 'Blog',
-      href: '#',
+      href: './blog',
     },
     {
       text: 'Papeles',
@@ -99,33 +99,11 @@ export const footerData = {
     {
       title: 'Product',
       links: [
-        { text: 'Features', href: '#' },
-        { text: 'Security', href: '#' },
-        { text: 'Team', href: '#' },
-        { text: 'Enterprise', href: '#' },
-        { text: 'Customer stories', href: '#' },
-        { text: 'Pricing', href: '#' },
-        { text: 'Resources', href: '#' },
-      ],
-    },
-    {
-      title: 'Platform',
-      links: [
-        { text: 'Developer API', href: '#' },
-        { text: 'Partners', href: '#' },
-        { text: 'Atom', href: '#' },
-        { text: 'Electron', href: '#' },
-        { text: 'AstroWind Desktop', href: '#' },
-      ],
-    },
-    {
-      title: 'Support',
-      links: [
-        { text: 'Docs', href: '#' },
-        { text: 'Community Forum', href: '#' },
-        { text: 'Professional Services', href: '#' },
-        { text: 'Skills', href: '#' },
-        { text: 'Status', href: '#' },
+        { text: 'Servicios', href: '#' },
+        { text: 'Papeles', href: '#' },
+        { text: 'Historias', href: '#' },
+        { text: 'Cotizacion', href: '#' },
+        { text: 'Brochure', href: '#' },
       ],
     },
     {
@@ -154,6 +132,6 @@ export const footerData = {
   ],
   footNote: `
     <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)]"></span>
-    Made by <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://onwidget.com/"> onWidget</a> · All rights reserved.
+    Hecho por <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://onwidget.com/"> Manifiesto Studio</a> · Todos los derechos reservados
   `,
 };
